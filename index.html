@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="und">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Unicode Character</title>
+    <link id="favicon" rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Noto Sans', sans-serif;
+        }
+        #code {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        #randomChar {
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="code"></div>
+    <span id="randomChar"></span>
+    <script>
+        function getRandomUnicodeChar() {
+            let code = Math.floor(Math.random() * (0x10FFFF + 1));
+            return {
+                char: String.fromCharCode(code),
+                code: code.toString(16).toUpperCase().padStart(4, '0')
+            };
+        }
+
+        function updateFavicon(char) {
+            let canvas = document.createElement('canvas');
+            canvas.width = 32;
+            canvas.height = 32;
+            let ctx = canvas.getContext('2d');
+            ctx.font = '24px Arial';
+            ctx.fillText(char, 0, 24);
+            let dataURL = canvas.toDataURL('image/png');
+            document.getElementById('favicon').href = dataURL;
+        }
+
+        function updateRandomChar() {
+            let randomCharInfo = getRandomUnicodeChar();
+            document.getElementById('code').textContent = `U+${randomCharInfo.code}`;
+            document.getElementById('randomChar').textContent = randomCharInfo.char;
+            updateFavicon(randomCharInfo.char);
+        }
+
+        document.addEventListener('click', updateRandomChar);
+        document.addEventListener('keydown', function(event) {
+            if (event.code === 'Space') {
+                updateRandomChar();
+            }
+        });
+
+        updateRandomChar();
+    </script>
+</body>
+</html>
