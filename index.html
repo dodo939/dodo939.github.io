@@ -29,6 +29,8 @@
     <div id="code"></div>
     <span id="randomChar"></span>
     <script>
+        let charHistory = [];
+
         function getRandomUnicodeChar() {
             let code = Math.floor(Math.random() * (0x10FFFF + 1));
             return {
@@ -48,11 +50,25 @@
             document.getElementById('favicon').href = dataURL;
         }
 
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert(text);
+            }).catch(err => {
+                console.error(err);
+            });
+        }
+
         function updateRandomChar() {
             let randomCharInfo = getRandomUnicodeChar();
             document.getElementById('code').textContent = `U+${randomCharInfo.code}`;
             document.getElementById('randomChar').textContent = randomCharInfo.char;
             updateFavicon(randomCharInfo.char);
+
+            charHistory.push(randomCharInfo.char);
+            if (charHistory.length === 16) {
+                copyToClipboard(charHistory.join(''));
+                charHistory = [];
+            }
         }
 
         document.addEventListener('click', updateRandomChar);
