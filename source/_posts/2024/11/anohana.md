@@ -3,7 +3,8 @@ title: 《我们仍未知道那天所看见的花的名字。》
 filename: anohana.md
 date: 2024/11/27 4:30:00
 updated: 2024/11/27 4:30:00
-categories: [番組回忆, 2024]
+categories:
+  - [番組回忆, 2024]
 tags:
   - 催泪
   - 童年
@@ -13,7 +14,9 @@ index_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/11/anohana-0.jp
 banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/11/anohana-1.jpg
 ---
 
-# あの日見た花の名前を僕達はまだ知らない。
+# 《我们仍未知道那天所看见的花的名字。》
+
+## 简介
 
 从小一起长大的六个孩子，在升上高中之后彼此有了距离。不太与人们接触的宅男宿海仁太、有点被小太妹熏染的安城鸣子、进入重点高中的松雪集与鹤见知利子、放弃读高中而展开旅行的久川铁道……只有幼年死去的本间芽衣子（只有仁太能看见的灵魂），还是单纯一如从前。
 
