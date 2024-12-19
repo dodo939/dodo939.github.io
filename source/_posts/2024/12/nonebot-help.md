@@ -83,5 +83,5 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/12/nonebot-hel
 
 ### 撤回消息
 
-引用机器人自己发送的某一个消息，机器人会尝试撤回它。
+引用机器人自己发送的某一个消息并发送 `撤回`，机器人会尝试撤回它。
 
