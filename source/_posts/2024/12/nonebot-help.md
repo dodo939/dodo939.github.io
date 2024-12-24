@@ -2,7 +2,7 @@
 title: 猫猫使用帮助
 filename: nonebot-help.md
 date: 2024/12/20 4:00:00
-updated: 2024/12/20 4:00:00
+updated: 2024/12/24 19:30:00
 categories:
   - NoneBot
 tags:
@@ -71,9 +71,18 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/12/nonebot-hel
 
 使用示例: `ping`
 
+### admin.*
+
+管理功能开关，仅**群主、管理员或 SUPERUSER** 可以使用，以下为子指令列表：
+
+- `admin.主动聊天 on/off`
+- `admin.打断复读 on/off`
+
+
+
 ## 其他功能
 
-### 复读中断
+### 打断复读
 
 当群里连续三条消息重复时，会自动发送一张表情包打断复读。
 
@@ -85,8 +94,8 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/12/nonebot-hel
 
 引用机器人自己发送的某一个消息并发送 `撤回`，机器人会尝试撤回它。
 
-### 主动讨论
+### 主动聊天
 
 会有小概率参与群内聊天，内容由该群最近 10 条消息生成。
 
-概率初定为 `4%` ，后续概率更改不再通知。
+触发概率现为 `4.5%` 。
