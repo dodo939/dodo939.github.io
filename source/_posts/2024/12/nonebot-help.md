@@ -71,6 +71,21 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/12/nonebot-hel
 
 使用示例: `ping`
 
+### 扫码
+
+识别并扫描图片中的二维码或条形码。
+
+使用示例: `扫码` (需要发送包含图片的消息，或者引用包含图片的消息)
+
+### 做码
+
+根据提供的文本制作二维码。
+
+使用示例:
+
+- `做码 疯狂星期四v我50`
+- `做码 www.example.com`
+
 ### admin.*
 
 管理功能开关，仅**群主、管理员或 SUPERUSER** 可以使用，以下为子指令列表：
