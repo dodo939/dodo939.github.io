@@ -27,7 +27,7 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/12/happy-birth
 
 ![From 哔哩哔哩](https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/12/happy-birthday-19-3.jpg)
 
-
+![From QQ](https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/12/happy-birthday-19-4.jpg)
 
 时间，年龄，会让人成熟，变得稳重，但我不希望是变得无趣和乏味。随着一年一年过去，能否坚持自己的信念，继续怀着当初的憧憬，坚持自己的热爱，我相信一定可以，因为，最重要的是，不能让自己失望。
 
