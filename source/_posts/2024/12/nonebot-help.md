@@ -23,6 +23,12 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/12/nonebot-hel
 
 使用示例: `菜单`
 
+### 图
+
+随机图（无瑟瑟）
+
+使用示例: `图`
+
 ### ai
 
 调用 `qwen-max` 付费模型的人工智能，用于回答专业问题，费用很高，支持上下文。
