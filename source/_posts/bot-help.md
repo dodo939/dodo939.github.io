@@ -39,12 +39,13 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/bot-help-0.jpg
 
 ### mcping
 
-获取 Minecraft Java 版的服务器信息。若省略了服务器地址参数，则可以添加 `-s` 参数将仅输出延迟和人数。
+获取 Minecraft Java 版的服务器信息。若省略了服务器地址参数，则可以添加 `-s` 参数简洁输出或 `-l` 参数列出部分在线玩家。
 
 使用示例:
 
 - `mcping mc.hypixel.net`
 - `mcping -s`
+- `mcping -l`
 
 #### mcping.bind
 
