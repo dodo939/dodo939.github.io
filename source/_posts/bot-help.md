@@ -61,13 +61,13 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/bot-help-0.jpg
 
 ### ai
 
-调用 `qwen-max` 付费模型的人工智能，用于回答专业问题，费用很高，支持上下文。
+调用 `deepseek-chat` 付费模型的人工智能，用于回答专业问题，上下文限制 100 次问和答。
 
 使用示例: `ai 什么是哈夫曼树`
 
 ### neko
 
-调用 `qwen-plus` 付费模型的人工智能，已经被调教为猫娘，费用较高，支持上下文。
+调用 `deepseek-chat` 付费模型的人工智能，已经被调教为猫娘，上下文限制 100 次问和答。
 
 使用示例: `neko 让我摸摸你的头`
 
@@ -79,7 +79,7 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/bot-help-0.jpg
 
 ### vl
 
-图像识别，支持同时多图，不支持上下文，费用非常高！
+图像识别，支持同时多图，不支持上下文。
 
 使用示例: `vl 看看这是什么` (需要引用包含图片的消息，或者发送的消息中包含图片)
 
@@ -149,4 +149,4 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/bot-help-0.jpg
 
 会有小概率参与群内聊天，内容由该群最近 20 条消息生成。
 
-触发概率现为 `1%` 。
+触发概率现为 `2.5%` 。
