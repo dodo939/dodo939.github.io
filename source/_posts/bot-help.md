@@ -2,7 +2,7 @@
 title: 猫猫使用帮助
 filename: bot-help.md
 date: 2024/12/20 4:00:00
-updated: 2025/1/28 11:15:00
+updated: 2025/1/29 1:06:00
 categories:
   - NoneBot
 tags:
@@ -61,13 +61,13 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/bot-help-0.jpg
 
 ### ai
 
-调用 `deepseek-chat` 付费模型的人工智能，用于回答专业问题，上下文限制 100 次问和答。
+调用 `qwen-max-latest` 付费模型的人工智能，用于回答专业问题，上下文限制 100 次问和答。
 
 使用示例: `ai 什么是哈夫曼树`
 
 ### neko
 
-调用 `deepseek-chat` 付费模型的人工智能，已经被调教为猫娘，上下文限制 100 次问和答。
+调用 `qwen-plus-latest` 付费模型的人工智能，已经被调教为猫娘，上下文限制 100 次问和答。
 
 使用示例: `neko 让我摸摸你的头`
 
