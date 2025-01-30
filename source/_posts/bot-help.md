@@ -2,7 +2,7 @@
 title: 猫猫使用帮助
 filename: bot-help.md
 date: 2024/12/20 4:00:00
-updated: 2025/1/29 1:06:00
+updated: 2025/1/30 20:10:00
 categories:
   - NoneBot
 tags:
@@ -22,6 +22,15 @@ banner_img: https://dodo939.oss-cn-beijing.aliyuncs.com/blog/2024/bot-help-0.jpg
 定位至此文章
 
 使用示例: `菜单`
+
+### 能不能好好说话
+
+详见此[开源项目](https://github.com/itorr/nbnhhsh)。
+
+使用示例:
+
+- `能不能好好说话 yyds`
+- `nbnhhsh yyds`
 
 ### mcrcon
 
