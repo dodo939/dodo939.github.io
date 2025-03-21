@@ -2,7 +2,7 @@
 title: 喵喵喵使用帮助
 unique: bot-help
 date: 2024/12/20 4:00:00
-updated: 2025/3/3 23:20:00
+updated: 2025/3/22 1:43:00
 categories:
   - NoneBot
 tags:
@@ -45,9 +45,15 @@ tags:
 
 #### mcping.bind
 
-为当前群绑定服务器，之后直接使用 `mcping` 无需参数即可快捷查询
+为当前群绑定服务器，之后直接使用 `mcping` 无需参数即可快捷查询。
 
 使用示例: `mcping.bind mc.hypixel.net`
+
+### 伪造消息
+
+伪造转发聊天记录，目前仅支持单条。格式：`伪造消息 (QQ号)消息内容`。
+
+使用示例: `伪造消息 (3476604537)我是可爱小男娘`
 
 ### AI
 
